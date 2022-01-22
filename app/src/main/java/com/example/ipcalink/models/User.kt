@@ -1,6 +1,7 @@
 package com.example.ipcalink.models
 
 import com.google.firebase.Timestamp
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.QueryDocumentSnapshot
 import com.google.type.DateTime
 import java.util.*
@@ -13,10 +14,8 @@ class User {
     var email      : String = ""
     var bio        : String = ""
     var isOnline   : Boolean? = null
-    var lastSeen   : String = ""
+    var lastSeen   : Timestamp?
     var photoURl   : String = ""
-
-    constructor()
 
 
     constructor(
@@ -26,7 +25,7 @@ class User {
         email       : String,
         bio         : String,
         isOnline    : Boolean,
-        lastSeen    : String
+        lastSeen    : Timestamp
     ) {
         this.userId    = userId
         this.name      = name
@@ -45,11 +44,12 @@ class User {
         hashMap.put("email"  , email)
         hashMap.put("bio"  , bio)
         hashMap.put("isOnline", isOnline as Any)
-        hashMap.put("lastSeen", lastSeen)
+        hashMap.put("lastSeen", lastSeen as Any)
         return hashMap
     }
 
     companion object {
+
         fun fromHash(hashMap: QueryDocumentSnapshot): User {
             val user = User(
                 hashMap["userId"] as String,
@@ -58,9 +58,23 @@ class User {
                 hashMap["email"   ] as String,
                 hashMap["bio"   ] as String,
                 hashMap["isOnline"   ] as Boolean,
-                hashMap["lastSeen"   ] as String
+                hashMap["lastSeen"   ] as Timestamp
             )
             return user
         }
+
+        fun fromHashDoc(hashMap: DocumentSnapshot): User {
+            val user = User(
+                hashMap["userId"] as String,
+                hashMap["name"    ] as String,
+                hashMap["photoUrl"   ] as String,
+                hashMap["email"   ] as String,
+                hashMap["bio"   ] as String,
+                hashMap["isOnline"   ] as Boolean,
+                hashMap["lastSeen"   ] as Timestamp
+            )
+            return user
+        }
+
     }
 }

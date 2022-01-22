@@ -5,14 +5,19 @@
       <map>
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/background.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/bottom_main_nav_item_colors.xml" value="0.3828125" />
+        <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/button_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/custom_bottom_app_bar.xml" value="0.3828125" />
+        <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/edit_text_background.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/ic_radio_off.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/ic_radio_on.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/no_background.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/outline_dark_mode_20.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/outline_dark_mode_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/rounded_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/rounded_corner_square.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/selector.xml" value="0.3828125" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/drawable/toggle_drawable.xml" value="0.3828125" />
+        <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/layout/activity_add_event.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/layout/activity_boarding.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gmart/StudioProjects/IpcaLink/app/src/main/res/layout/activity_private_chat.xml" value="0.36666666666666664" />
